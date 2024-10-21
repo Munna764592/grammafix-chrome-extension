@@ -1,4 +1,4 @@
-let api_key = "AIzaSyBm91vHhnByN054IfDGKslmkk445TgXG_8"
+let api_key = ""
 
 let timeoutId;
 const converter = new showdown.Converter();
