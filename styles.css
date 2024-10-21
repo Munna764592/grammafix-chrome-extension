@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.gr-body {
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+#textInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#checkGrammar {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#checkGrammar:hover {
+  background-color: #45a049;
+}
+
+#results p {
+  color: red;
+}
+
+/* Style the grammar suggestions tooltip */
+.grammar-suggestions {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #333;
+  border-radius: 8px;
+  background-color: #f1f3f9;
+  display: none;
+  position: absolute;
+  left: 242px; /* Initial position */
+  top: 60px;
+  z-index: 99999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topdiv {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgb(176, 176, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.closebutton {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+.contentDiv {
+  width: 350px;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.highlight-red {
+  text-decoration: underline;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.sugge {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.divbox {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+.fix-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.fix-button:hover {
+  background-color: #45a049;
+}
+
+.grammar-icon {
+  pointer-events: all;
+  transform: translate(-100%, -100%);
+}
